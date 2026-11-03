@@ -10,7 +10,7 @@ Public downloads for Aurora Music Player. This repository contains release binar
 - [Release page](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases/tag/v0.1.6)
 - [All releases](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases)
 
-Windows builds are unsigned, so SmartScreen may warn.
+Builds are unsigned, so Windows SmartScreen may warn.
 
 ## Latest release
 
