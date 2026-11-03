@@ -1,2 +1,16 @@
-# Aurora-Music-Player-Downloads
-Public release downloads for Aurora Music Player
+# Aurora Music Player downloads
+
+Public downloads for Aurora Music Player. This repository contains release binaries only.
+
+## 0.1.6
+
+- [Windows installer](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases/download/v0.1.6/Aurora.Music.Player.Setup.0.1.6.exe)
+- [Windows portable](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases/download/v0.1.6/Aurora.Music.Player.0.1.6.exe)
+- [Release page](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases/tag/v0.1.6)
+- [All releases](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases)
+
+Windows builds are unsigned, so SmartScreen may warn.
+
+## Latest release
+
+Use the [latest release page](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases/latest) for the newest downloads.
