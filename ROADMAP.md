@@ -57,6 +57,16 @@ Aurora 0.2.0 is the platform milestone: a plugin system, macOS support, a phone 
 translations and optional cloud sync. After that, 0.2.1 is the video candidate — local video and
 direct links playing on the existing visualizer stage, without changing how audio-only use works.
 
+## On your phone — 0.3.0
+
+Aurora on Android will start as a companion, not a second library. Pair your phone with the desktop
+over your home network, then use it to browse what is playing, search the library, manage the queue
+and control playback and volume.
+
+The app will be a signed APK you install directly from the releases page, with the same checksums and
+release notes as the desktop builds. There is no Play Store release planned yet, and the phone will
+not store or scan your music on its own — that would be a separate app with its own plan.
+
 ## What Aurora won't do
 
 - No ads, no tracking and no account requirement.
