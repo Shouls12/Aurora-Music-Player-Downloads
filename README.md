@@ -19,6 +19,12 @@ telemetry, nothing uploaded anywhere. It started as a personal project and is st
 Not sure which Windows file to grab? The installer is the normal choice. The portable build is handy
 for a USB stick or a machine where you can't install software.
 
+## What's coming
+
+Built-in updates and support for more audio formats are next, then library workflows and
+accessibility, then podcasts, radio and playing audio from a link. The [roadmap](ROADMAP.md) has the
+plain-language plan.
+
 ## What's in it
 
 - All Tracks, Albums, Artists, Genres and Favorites, plus automatic Recently Played and Most Played lists
@@ -55,5 +61,5 @@ Get-FileHash .\Aurora.Music.Player.Setup.0.1.7.exe -Algorithm SHA256
 
 ---
 
-This repository only holds release builds. Source, issue notes and the roadmap stay in the private
-repository. Built with Electron.
+Aurora is a free hobby project. This repository only holds release builds; the source stays private.
+The [roadmap](ROADMAP.md) and [changelog](CHANGELOG.md) are public. Built with Electron.
