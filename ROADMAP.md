@@ -6,35 +6,32 @@ feature.
 
 ## Where Aurora is today
 
-The current release is **0.1.7**. Aurora plays a local music library on Windows and Linux: All
+The current release is **0.1.8**. Aurora plays a local music library on Windows and Linux: All
 Tracks, Albums, Artists, Genres and Favorites, your own playlists and smart playlists, a 10-band
 equalizer, 18 visualizers, synced lyrics, ReplayGain, gapless playback, tag writing to MP3, FLAC and
-Ogg Vorbis, folder watching, duplicate finding and backup/restore.
+Ogg Vorbis, folder watching, duplicate finding, backup/restore and automatic updates. AAC/M4A, ALAC,
+WAV, AIFF, Opus, WMA, APE, WavPack and DSD files import with their metadata and artwork.
 
-## Coming next — 0.1.8
+## Coming next — 0.1.9
 
-**Updates that come to you.** Aurora will check for a new version and offer to install it, with the
-release notes in front of you. The installer can update in place; portable builds and the AppImage
-keep a manual download, because replacing those files while they run is not safe.
+**A sidebar that fits the way you listen.** Choose which sections appear, with a safe fallback when
+the current view is hidden, and one shared list that keeps menus, shortcuts and the sidebar in step.
 
-**The formats your library actually contains.** AAC/M4A, ALAC, WAV and AIFF, Opus, WMA, APE,
-WavPack, DSD and cue-sheet albums, with metadata and artwork read for each one. When a file cannot
-be played, Aurora will say so plainly instead of failing quietly.
+**Playlists that know what you play.** Automatic Top Artists and Top Genres lists, built from your
+listening rather than a rule you have to write.
 
-Windows builds stay unsigned. That is a deliberate choice for a free project, so SmartScreen will
-keep warning on first run.
+**Faster metadata work.** Batch Track Info walks through every selected track one after another, and
+one-click lookup can fill in a whole album with a clear warning that automatic matching can pick the
+wrong release.
 
-## After that — 0.1.9
+**Deeper format support.** Cue-sheet albums become individual tracks, and WMA, APE, WavPack and DSD
+get a decoder-backed playback path. Formats without a decoder keep the plain explanation they have
+today.
 
-- Choose which sections appear in the sidebar, with a safe fallback if the current view is hidden
-- Automatic **Top Artists** and **Top Genres** playlists built from what you actually listen to
-- **Batch Track Info**: work through metadata for every selected track, one after another
-- One-click metadata lookup, with a clear warning that automatic matching can pick the wrong release
-- Screen-reader labels, high contrast and complete keyboard navigation
-- Faster startup and artwork handling for very large libraries
-- More visualizers and equalizer presets
+**The quality gates.** Screen-reader labels, high contrast, complete keyboard navigation, faster
+startup for very large libraries, and more visualizers and equalizer presets.
 
-## Later — 0.1.10
+## After that — 0.1.10
 
 **Listening beyond your own files**
 

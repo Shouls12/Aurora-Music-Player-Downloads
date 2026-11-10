@@ -4,6 +4,32 @@ Release notes for Aurora Music Player. Downloads live on the
 [latest release](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases/latest), and
 older builds are under [all releases](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases).
 
+## 0.1.8
+
+### New
+- **Aurora updates itself.** The installed Windows build checks for a new version at startup,
+  downloads it in the background and asks whether to restart now or later. Portable and AppImage
+  builds keep the download link, because replacing a running file is not safe.
+- **More of your library opens.** AAC/M4A, ALAC, WAV, AIFF, Opus, WMA, APE, WavPack and DSD files
+  now import with their titles, artists and cover art. A file your system cannot decode is marked
+  in the list and explains itself when you press play, instead of failing quietly.
+
+### Improved
+- **More room for your music.** Drag the edge of the library sidebar or the Queue/Lyrics panel to resize either one. Aurora remembers the widths, and the main view narrows instead of hiding behind the panel. The keyboard can resize a focused divider, and double-clicking resets it.
+- Your chosen typeface now carries through the whole app, including buttons and form controls.
+- WAV and AIFF files show their real length straight away, so the seek bar is ready before you
+  press play.
+- Track Info keeps you on the album or artist you were editing after you save, and its window stays
+  one size while cover art and matches load.
+- The bar that appears when you select several tracks now names them, not just how many there are.
+- "Reveal in Explorer" is now **Open in folder**, which reads the same on every platform.
+- The Linux tray icon appears properly, and the Linux download no longer carries Windows-only files.
+
+### Fixed
+- A collection opens at its first track instead of partway down the list.
+- Rows stop looking selected once the selection is cleared.
+- Windows builds stay unsigned, as before; SmartScreen may mention an unknown publisher on first run.
+
 ## 0.1.7
 
 ### New
@@ -56,36 +82,15 @@ older builds are under [all releases](https://github.com/Shouls12/Aurora-Music-P
 - Folder rows are de-duplicated, so the same path is no longer listed twice.
 - Layout, theming, playlist search, grid spacing and M3U import fixes across the app.
 
-## 0.1.5
-
-### New
-- **ReplayGain** support with track and album gain, plus a preamp.
-- **Gapless playback**, so live albums and mixes run without a gap.
-- **CD ripping (beta)**: detects the drive, fetches track details and writes MP3 files. This needs
-  `ffmpeg` and `ffprobe` on your PATH; the app tells you if they are missing.
-- Resizable and reorderable track columns, and a Help tab inside Preferences.
-
-### Improved
-- Synced lyrics highlight and follow the current line, with a toggle to turn that off.
-- Faster search and list rendering on big libraries.
-
-### Fixed
-- An empty library no longer crashes the app on startup.
-- Preferences now actually apply when you save them.
-- M3U playlists import with Windows paths intact.
-- Lyrics timestamps accept 1–3 decimal places.
-- Closing to the tray, tray ▸ Quit, restoring the window on a second monitor, and the seek bar
-  while dragging all behave correctly.
-- Missing files report "file not found" instead of an unsupported-format error.
-
-## Earlier versions (0.1.1 – 0.1.4)
+## Earlier versions (0.1.1 – 0.1.5)
 
 The first releases built the foundation: library views with search, sorting and custom columns;
 custom playlists with M3U import and export; watched folders with automatic scanning; favorites,
 ratings and play counts; the queue, mini player, 10-band equalizer and visualizers; synced lyrics;
 online metadata and cover art; manual tag editing; dark and light themes with accent colors and
 backgrounds; a frameless title bar; system tray support, global media keys and file associations;
-and Managed Libraries with per-folder stats, health checks, scan schedules and JSON import/export.
+ReplayGain, gapless playback and CD ripping; and Managed Libraries with per-folder stats, health
+checks, scan schedules and JSON import/export.
 
 ---
 
