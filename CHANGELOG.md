@@ -4,6 +4,50 @@ Release notes for Aurora Music Player. Downloads live on the
 [latest release](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases/latest), and
 older builds are under [all releases](https://github.com/Shouls12/Aurora-Music-Player-Downloads/releases).
 
+## 0.1.9
+
+### New
+- **A Home that fits the way you listen.** Home opens with cards for what you have been playing,
+  songs picked from your listening, mixes you can save as playlists, your most played, favorites and
+  new arrivals. Hide or reorder any card, and choose which sections appear in the sidebar.
+- **Playlists that know what you play.** Automatic Top Artists and Top Genres lists build
+  themselves from your listening and keep up as you listen.
+- **Faster metadata work.** Track Info can walk a whole selection one track at a time, with Save and
+  next, Skip and a summary at the end. One-click lookup fills the fields from online matches behind
+  a warning that automatic matching can pick the wrong release.
+- **Cue-sheet albums.** A `.cue` file becomes individual tracks with their own start and end
+  points, so long live sets and DJ mixes split properly in the library.
+- **More formats play.** WMA, APE, WavPack and DSD files play when `ffmpeg` is on your PATH, and
+  Preferences ▸ Audio reports what this machine can play and what it still needs.
+- **Tag editing for more formats.** Opus, WAV and AIFF files now keep title, artist, album, genre,
+  year, track and cover art inside the file, alongside MP3, FLAC and Ogg Vorbis.
+- **Two new visualizers** (Bass Bloom and Orbit) for 19 in all, plus three new equalizer presets and
+  named custom curves you can rename, delete and undo.
+
+### Improved
+- **Cover art appears sooner.** Rows and cards paint a small version of each cover and fade it in
+  over the cover's dominant color, instead of loading the full-size image into every row.
+- **Faster startup on large libraries.** The library, playlists and settings load together, and the
+  automatic listening lists are built when you first open Playlists.
+- **Better keyboard and screen-reader support.** Track lists, album and artist cards and the queue
+  are one tab stop with arrow-key navigation, every icon and switch has a spoken name, and the
+  interface follows Windows high contrast and your text size.
+- **Clearer failure messages.** An unreachable online database, a timed-out request or a rate limit
+  now says so instead of "no match", and a failed update download keeps its retry.
+- **Safer library maintenance.** Missing-track removal only runs after a complete scan, so a folder
+  that was briefly unreadable cannot take its tracks with it.
+- **Playlists from another player import correctly.** Relative entries, `file://` links and entries
+  that do not exist on this machine are handled instead of adding blank tracks.
+
+### Fixed
+- Saving cover art to an Ogg Vorbis file made the track unreadable; covers now save and read back
+  correctly, and the same fix covers Opus.
+- FLAC, Ogg and Opus files sometimes imported with a filename title and no artist; they now read
+  their real tags.
+- A truncated FLAC file could be replaced by a metadata-only stub; such a file is now refused and
+  left exactly as it was.
+- Maximizing a minimized window works again on Linux.
+
 ## 0.1.8
 
 ### New

@@ -6,32 +6,15 @@ feature.
 
 ## Where Aurora is today
 
-The current release is **0.1.8**. Aurora plays a local music library on Windows and Linux: All
-Tracks, Albums, Artists, Genres and Favorites, your own playlists and smart playlists, a 10-band
-equalizer, 18 visualizers, synced lyrics, ReplayGain, gapless playback, tag writing to MP3, FLAC and
-Ogg Vorbis, folder watching, duplicate finding, backup/restore and automatic updates. AAC/M4A, ALAC,
-WAV, AIFF, Opus, WMA, APE, WavPack and DSD files import with their metadata and artwork.
+The current release is **0.1.9**. Aurora plays a local music library on Windows and Linux: a Home
+screen of recent plays, picks and mixes, All Tracks, Albums, Artists, Genres and Favorites, your own
+playlists and smart playlists, automatic Top Artists and Top Genres lists, a 10-band equalizer,
+19 visualizers, synced lyrics, ReplayGain, gapless playback, tag writing to MP3, FLAC, Ogg Vorbis,
+Opus, WAV and AIFF, cue-sheet albums, folder watching, duplicate finding, backup/restore,
+decoder-backed playback for WMA, APE, WavPack and DSD when FFmpeg is installed, and automatic
+updates.
 
-## Coming next — 0.1.9
-
-**A sidebar that fits the way you listen.** Choose which sections appear, with a safe fallback when
-the current view is hidden, and one shared list that keeps menus, shortcuts and the sidebar in step.
-
-**Playlists that know what you play.** Automatic Top Artists and Top Genres lists, built from your
-listening rather than a rule you have to write.
-
-**Faster metadata work.** Batch Track Info walks through every selected track one after another, and
-one-click lookup can fill in a whole album with a clear warning that automatic matching can pick the
-wrong release.
-
-**Deeper format support.** Cue-sheet albums become individual tracks, and WMA, APE, WavPack and DSD
-get a decoder-backed playback path. Formats without a decoder keep the plain explanation they have
-today.
-
-**The quality gates.** Screen-reader labels, high contrast, complete keyboard navigation, faster
-startup for very large libraries, and more visualizers and equalizer presets.
-
-## After that — 0.1.10
+## Coming next — 0.1.10
 
 **Listening beyond your own files**
 
